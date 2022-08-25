@@ -13,10 +13,10 @@ const Navbar = () => {
     <div className="flex justify-between items-center max-w-[1240px] mx-auto ">
       <img className="h-[100px] p-4 m-4" src={Logo} alt="S logo" />
       <ul className=" hidden md:flex p-4 m-4 ">
-        <li className="mr-4 p-4">About</li>
-        <li className="mr-4 p-4">Skills</li>
-        <li className="mr-4 p-4">Projects</li>
-        <li className="mr-4 p-4">Contact</li>
+        <li className="mr-4 p-4 font-semibold">About</li>
+        <li className="mr-4 p-4 font-semibold">Skills</li>
+        <li className="mr-4 p-4 font-semibold">Projects</li>
+        <li className="mr-4 p-4 font-semibold">Contact</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden p-4">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
