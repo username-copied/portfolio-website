@@ -24,17 +24,15 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed left-0 top-0 w-[40%]  border-r ease-in-out duration-500  "
-            : "ease-in-out duration-500 fixed left-[-100%]"
+            ? "fixed left-0 top-[100px] w-[30%] h-full  ease-in-out  duration-500 md:hidden navbar"
+            : "ease-in-out duration-500 fixed left-[-100%] top-[100px]"
         }
       >
-        <img className="h-[100px] p-4 m-4" src={Logo} alt="S logo" />
-        <li className=" mx-auto p-4 border-b border-blue-600 bg-[skyblue]">
-          About
-        </li>
-        <li className="p-4 border-b border-blue-600 bg-[skyblue]">Skills</li>
-        <li className="p-4 border-b border-blue-600 bg-[skyblue]">Projects</li>
-        <li className="p-4 border-b border-blue-600 bg-[skyblue]">Contact</li>
+        {/* <img className="h-[100px] p-4 m-4" src={Logo} alt="S logo" /> */}
+        <li className="text-center p-4 font-semiblod">About</li>
+        <li className="text-center p-4 font-semiblod">Skills</li>
+        <li className="text-center p-4 font-semiblod">Projects</li>
+        <li className="text-center p-4 font-semiblod">Contact</li>
       </ul>
     </div>
   );
