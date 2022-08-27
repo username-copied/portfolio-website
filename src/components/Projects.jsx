@@ -8,7 +8,9 @@ const Projects = () => {
       </div>
       <div className="mx-auto text-xl">
         {" "}
-        <a href="github.com/username-copied">username-copied's Github</a>{" "}
+        <a href="https://github.com/username-copied">
+          username-copied's Github
+        </a>{" "}
       </div>
     </div>
   );
