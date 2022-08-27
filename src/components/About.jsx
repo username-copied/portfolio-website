@@ -6,7 +6,7 @@ import Setup from "../assets/hero-devices.svg";
 const About = () => {
   return (
     <div>
-      <div className="max-w-[800px] sm:mt-[-96px] mt-[96px] w-full h-screen mx-auto text-center flex flex-col justify-center items-center">
+      <div className="max-w-[800px] sm:mt-[-150px]  w-full h-screen mx-auto text-center flex flex-col justify-center items-center">
         <div className="md:text-5xl sm:text-4xl text-xl font-bold py-4 flex mx-auto">
           <h1 className="mr-2">I am </h1>
           <Typed
