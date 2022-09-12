@@ -5,7 +5,6 @@ import Linkedin from "../assets/linkedin.png";
 import Gmail from "../assets/gmail.png";
 import Github from "../assets/github.png";
 import Twitter from "../assets/twitter.png";
-import Whatsapp from "../assets/whatsapp.png";
 
 const Footer = () => {
   return (
@@ -51,13 +50,6 @@ const Footer = () => {
           <img
             src={Twitter}
             alt="Twitter"
-            className="h-[70px] bg-white rounded-md hover:bg-gray-300  duration-[1s]"
-          />
-        </a>
-        <a href="https://wa.me/qr/EXIFGKF56XSEO1">
-          <img
-            src={Whatsapp}
-            alt="Whatsapp"
             className="h-[70px] bg-white rounded-md hover:bg-gray-300  duration-[1s]"
           />
         </a>
