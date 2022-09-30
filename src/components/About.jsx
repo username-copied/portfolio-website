@@ -1,7 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
-import Man from "../assets/indian-man.png";
+// import Man from "../assets/indian-man.png";
 import Setup from "../assets/hero-devices.svg";
+import Myself from "../assets/BackgroundImg.jpg";
 
 const About = () => {
   return (
@@ -21,8 +22,8 @@ const About = () => {
             I design and code beautifully simple things, and I love what I do.
           </h1>
         </div>
-        <div className="pt-4">
-          <img src={Man} alt="Man" />
+        <div className="rounded-md drop-shadow-2xl hover:scale-110 duration-100 w-[50%] bg-[#6e07f3] p-4">
+          <img src={Myself} alt="Man" />
         </div>
       </div>
       <div className="sm:w-[50%] w-[70%] mx-auto mt-[-130px]">
