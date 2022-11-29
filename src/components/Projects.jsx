@@ -21,7 +21,7 @@ const Projects = () => {
         </p>
         <a
           className="mx-auto text-xl"
-          href="https://drive.google.com/file/d/1xGjgM9eMYp-udvVDgHN0Y1ktfiZOa-Ws/view?usp=sharing"
+          href="https://drive.google.com/drive/u/1/folders/1YkWw7Gt2ra3ET50gj1BIwxsTQrc6D8e-"
         >
           Resume Link
         </a>
